@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">RTEAV1</string>
+    <string name="drawer_open">Drawer Open</string>
+    <string name="drawer_close">Drawer Close</string>
+
+    <string name="title_activity_take_tour">TakeTour</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Height</string>
+    <string name="registerStyle"><u>Register Here</u></string>
+    <string name="notice">Enter your mobile number to login or create an account.</string>
+
+    <!-- Creating string arrays for Spinner-->
+    <!-- Hair Color Array -->
+    <string-array name="hairColor">
+        <item>Black</item>
+        <item>Blonde</item>
+        <item>Brown</item>
+        <item>Burgundy</item>
+        <item>Chestnut</item>
+        <item>Dark Brown</item>
+        <item>Gold</item>
+        <item>Red</item>
+        <item>Honey</item>
+    </string-array>
+    <!-- Eye Color Array -->
+    <string-array name="eyeColor">
+        <item>Black</item>
+        <item>Blue</item>
+        <item>Brown</item>
+        <item>Green</item>
+        <item>Gray</item>
+        <item>Honey</item>
+    </string-array>
+    <!-- Height Array -->
+    <string-array name="ftHeight">
+        <item>Below 4</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7 and Above</item>
+    </string-array>
+
+    <string-array name="inHeight">
+        <item>00</item>
+        <item>01</item>
+        <item>02</item>
+        <item>03</item>
+        <item>04</item>
+        <item>05</item>
+        <item>06</item>
+        <item>07</item>
+        <item>08</item>
+        <item>09</item>
+        <item>10</item>
+        <item>11</item>
+    </string-array>
+
+    <string-array name="mapType">
+        <item>Choose map style........</item>
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+
+    </string-array>
+
+</resources>

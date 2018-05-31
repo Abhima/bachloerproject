@@ -1,0 +1,45 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.application.findmeappv21.GoogleMapFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.google.android.gms.maps.SupportMapFragment" />
+
+    <Spinner
+        android:id="@+id/mapType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center|top"
+        android:background="#E2F4F4"
+        />
+
+    <Button
+        android:id="@+id/helpMeButton"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/button_style"
+        android:layout_gravity="bottom|center"
+        />
+
+    <ToggleButton
+        android:id="@+id/locationOnOff"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:textOff=""
+        android:textOn=""
+        android:checked="true"
+        android:background="@drawable/locationonoff_style"
+        android:layout_gravity="top|right"/>
+
+
+
+</FrameLayout>
